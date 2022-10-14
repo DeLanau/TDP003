@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %}
+Techniques
+{% endblock %}
+
+{% block body %}
+
+<main>
+  <div class="tech">
+  {% for tech in techniques_stats %}
+  <a href="#{{ tech }}" class="techs">
+    <div class="items" id="{{ tech }}">
+      <div class="conts"><div class="pns">{{ tech }}</div><!-- <img src="/static/images/down.png" placeholder="expand"> --></div>
+      <div class="subs">
+        {% for project in techniques_stats[tech] %}
+        <a href="/project/{{ project.id }}">
+          <div class="itemser">
+            <div class="conts"><div class="pns">{{ project.name }}</div> {{ project.short_description }}</div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </div>
+  </a>
+  {% endfor %}
+  </div>
+</main>
+
+{% endblock %}

@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+{% block title %}
+List
+{% endblock %}
+
+{% block body %}
+
+<main>
+  <div id="search-wrap">
+    <form method="GET">
+      <input id="search-bar" class="form-elem" name="search" type="textbox" placeholder="Search project...">
+      <button id="submit" class="form-elem" type="submit">Search</button>
+
+<div class="filter">
+      <div class="split">
+        <label>Search in</label><br>
+        <input name="search-fields" value="project_name" type="checkbox" id="name" class="checkb">
+	<label class="check-labels" for="name">Name</label><br>
+        <input name="search-fields" value="course_id" type="checkbox" id="course" class="checkb">
+	<label class="check-labels" for="course">Course</label><br>
+        <input name="search-fields" value="long_description" type="checkbox" id="description" class="checkb">
+	<label class="check-labels" for="description">Description</label><br>
+      </div>
+      
+      <div class="split">
+        <label>Require techniques</label><br>
+        {% for tech in techniques_list %}
+	<input type="checkbox" value="{{ tech }}" name="techniques" id="{{ tech }}" class="checkb">
+	<label class="check-labels" for="{{ tech }}">{{ tech }}</label><br>
+        {% endfor %}
+      </div>
+
+
+      <div class="sort-by">
+      <label class="abc">Sort by</label>
+      <select name="sort_by" class="form-elem">
+        <option value="start_date"> Start date
+        <option value="end_date"> End date
+        <option value="project_name"> Project name
+      </select>
+
+      
+      <select name="sort_order" class="form-elem">
+        <option value="asc">Ascending
+        <option value="desc">Descending
+      </select>
+      </div>
+</div>
+    </form>
+    
+  </div>
+  <div class="wrap-proj">
+  {% for project in project_list %}
+  <a href="/project/{{ project.project_id }}">
+    <div class="item">
+      <div class="cont"><div class="pn"><img src="/static/images/{{ project.small_image }}" alt="project-image" class="proj-img"><br><div class="proj-name">{{ project.project_name }}</div></div> <div class="proj-short">{{ project.short_description }}</div></div>
+    </div>
+  </a>
+  {% endfor %}
+  </div>
+</main>
+
+{% endblock %}

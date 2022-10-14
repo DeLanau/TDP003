@@ -1,0 +1,233 @@
+\documentclass{mall}
+
+\newcommand{\version}{Version 1.0}
+\author{Klas Arvidsson, \url{klas.arvidsson@liu.se}\\
+  Pontus Haglund, \url{pontus.haglund@liu.se}\\
+  Emma Enocksson Svensson, \url{emma.enocksson@liu.se}\\
+  Filip Strömbäck, \url{filip.stromback@liu.se}}
+\title{Gruppkontrakt -- Exempel}
+\date{2020-10-01}
+\rhead{}
+
+
+\begin{document}
+\projectpage
+
+\section{Förutsättningar}
+\label{prereq}
+
+\begin{itemize}
+\item \textbf{Följande saker vill jag att min/mina kollegor visar hänsyn och förståelse för}
+
+  \begin{itemize}
+  \item Jag kan bara arbeta vissa tider (Både innanför och utanför normal arbetstid, 8-17)
+  \item Jag har svårt att komma igång efter en paus
+  \item Jag måste kunna jobba ostört
+  \item Jag måste ha konstant tillgång till kaffe
+  \item Jag måste ha någon att bolla idéer med
+  \item Jag måste ha gott om tid
+  \item Jag måste ha goda marginaler till deadline
+  \item Jag måste ha väldigt konkreta uppgifter (det måste vara tydligt vad jag ska göra, alltså vad
+    som förväntas av mig)
+  \item Jag är duktik på att programmera hemsidor
+  \item Jag är duktig på databaser
+  \item Jag är duktig på att testa kod
+  \item Jag vill jobba med saker jag redan kan
+  \item Jag vill jobba med saker som är nya för mig för att få lära mig nya saker
+  \item Jag vill att konstruktiv kritik framförs via epost eftersom jag tycker det är jobbigt att hantera på plats
+  \item Jag vill att konstruktiv kritik framförs på plats, gärna så fort som möjligt
+  \item Om jag blir kritiserad på ett sätt jag inte tycker är konstruktivt går jag i försvarställning
+  \item Jag går lätt i försvarsställning när jag blir kritiserad men vill ändå att kritik framförs
+  \end{itemize}
+
+\item \textbf{Hur ska jag bete mig för att stötta min/mina kollegor utifrån sina förutsättningar?}
+
+ \emph{ Insikt: Här handlar det om att vara villiga att ge och ta inom gruppen. Alla kanske inte kan få som de vill
+  hela tiden, men om man tänker igenom saker kan man komma fram till någonting som fungerar i stor utsträckning
+  för alla inblandade.}
+
+  Vi kommer hålla oss till ett schema för när vi ska arbeta och när vi tar raster så att vi kan respektera
+  tiderna som vi kan arbeta på. Eftersom jag inte kan arbeta direkt på morgonen och min partner inte kan
+  arbeta på kvällen kommer vi att arbeta tillsamman mellan ca klockan 11 och 16 på dagarna. Sedan kommer
+  jag arbeta vidare efteråt och han kommer börja innan. Om jag vill kontakta min partner sent på kvällen
+  så accepterar jag att hen inte kommer svara innan nästa dag.
+
+  Eftersom min partner känner att hen vill ha väldigt konkreta uppgifter så kommer vi tillsammans göra tydliga
+  specifikationer för hens uppgifter. Jag gillar att jobba med lite mer frihet men eftersom vi tydligt specificerat
+  min partners uppgifter riskerar vi inte att göra samma sak. Eftersom jag är duktig på att programmera hemsidor men
+  min partner gärna vill lära sig göra hemsidor kommer vi göra så att min partner får skriva utkastet till den delen,
+  sedan har vi code review där vi tillsammans kan titta på hur den koden blir bättre.
+
+
+\end{itemize}
+
+\section{Hur vi arbetar tillsammans}
+
+\begin{itemize}
+\item \textbf{Vilka tider arbetar vi, och vilka tider är vi nåbara utöver detta?}
+
+  Vi arbetar vardagar mellan klockan 8 och 17. På kvällar och helger är det okej att inte vara nåbar.
+
+\item \textbf{Hur kommunicerar vi med varandra? Vilka verktyg/kanaler använder vi? Hur och när är det okej att vi avbryter varandra?}
+
+  Vi kommunicerar huvudsakligen direkt till varandra i sal, annars via e-post. Vi förväntas läsa och
+  svara på epost varje dag. Det är okej att vi avbryter varandra med korta frågor, men längre
+  diskussioner bör tas på riktiga möten.
+
+
+  %\item \textbf{Hur gör jag för att ge min/mina kollegor möjlighet att framföra sina åsikter och tankar om uppgifter och idéer till arbetet?} ändrade detta för att vara i vi-form istället för jag
+  \item \textbf{Hur gör vi för att ge varandra möjlighet att framföra åsikter och tankar om uppgifter och idéer till arbetet?}
+
+  \emph{Insikt: Det är lätt hänt att någon inte vill ge sig in i en hetsig diskussion. Hur kan även
+  idéer och tankar från sådana personer komma fram och iakktas av gruppen? Bara för att en person
+  är bekväm med och skicklig att tala ska inte bara den individens tankar beaktas. Det är inte heller så att den som skriker högst nödvändigtvis har rätt.}
+
+  <Namn> vet med sig att hen ofta tar stor plats. Hen kommer därför ta lite större ansvar för att se till
+  att <Namn2> tankar och idéer också får komma fram.
+
+  \textbf{Eller kanske}
+
+  Vi ger oss alla gärna in i grundliga diskussioner om hur det är bäst att lösa ett problem, må bästa
+  lösning och argumenten vinna!
+
+\item \textbf{Hur ofta tar vi paus? Ska vi hjälpas åt att påminna varandra om att ta paus?}
+
+  Standard är att vi fördelar uppgifter mellan oss, men är det något svårt kör vi parprogrammering.
+
+\item \textbf{Arbetar vi tillsammans med uppgifter, eller var för sig?}
+
+  Vi har ett kort möte i början av varje arbetsdag där vi pratar igenom vad vi tänker göra under dagen.
+
+\item \textbf{Hur bestämmer vi vem som gör vad?}
+
+  Vi har ett kort möte i början av varje arbetsdag där vi pratar igenom vad vi tänker göra under dagen.
+
+\item \textbf{Hur specifierar vi vad som ingår i varje uppgift, och när den är klar?}
+
+  Också: Hur ska implementationen designas? Vem beslutar det?
+
+  Vid våra möten två gånger i veckan har vi en kort diskussion om varje moment och där tar vi också
+  upp hur vi ska testa saker så vi vet när de är klara. Om det blir några otydligheter under arbetets
+  gång pratar vi om det via våra vanliga kontaktvägar.
+
+\item \textbf{Hur snabbt förväntar vi oss att en uppgift kan vara klar?}
+
+  Varje uppgift måste få ta åtminstone en arbetsdag för att ta hänsyn till att den som ska göra
+  uppgiften kanske har planerat andra aktiviteter i andra kurser sedan tidigare.
+
+\item \textbf{Hur håller vi reda på att uppgifter vi identifierat inte glöms bort?}
+
+  Vi delar en fil med uppgifter kvar att göra och kontrollerar den varje möte. Viktiga deadlines har
+  vi påminnelse för i en gemensam kalender. Issues i GitLab, Post-it-lappar på tavla/fönster i
+  projektrum.
+
+\end{itemize}
+
+\section{Om jag tycker att något inte fungerar}
+
+\begin{itemize}
+\item \textbf{Vad gör vi om någon kommer sent?}
+
+  \emph{Insikt: Om du kommer 10 minuter för sent till ett möte med 3 personer har du just slösat bort 30
+  minuters arbetstid (om de väntar på dig) eller den tiden det tar för de andra att förklara vad de
+  redan pratat om.}
+
+  Vi börjar utan den som är sen. En person utses att efter mötet se till att den som kom sent tar
+  del av det hen missade. Den som kom sent tar med fika nästa möte.
+  
+  Vi börjar när alla kommit. Den som kom sist utses att protokollföra allt vi kommer fram till och
+  se till att alla godkänner protokollet.
+
+\item \textbf{Vad gör vi om någon inte slutför sina uppgifter?}
+
+  \emph{Insikt: Om jag inte gör mina uppgifter drabbas alla andra i gruppen. Våga säga nej till uppgifter
+  du inte kommer göra och våga be om hjälp för att komma igång med uppgifter som är nya för dig.}
+  
+  \emph{Tips: Ta upp konsekvenserna för dig/gruppen utan att beskylla. Be gruppen om hjälp leta efter
+  lösningar för dig.}
+  
+  Vi försöker ta reda på vad som hindrar personen och hjälpa hen komma igång eller få andra
+  uppgifter som inte har samma hinder.
+
+\item \textbf{Vad gör vi om arbetsfördelningen blir ojämn?}
+
+ \emph{Insikt: Jag tycker grupparbetet är superkul och skriver klart större delen över helgen inklusive
+  några delar som inte krävs. På måndagen ligger alla andra en arbetsvecka efter. Jag tycker jag
+  gjort mitt och vill inte göra mer. Alla andra är otacksamma och sura för att de nu är ensamma med
+  alla tråkiga uppgifter som är kvar och riskerar till och med underkänt för det inte finns
+  tillräckligt kvar för dem att göra för att bli godkända. Vad har jag gjort för fel?}
+
+ Vi försöker ta reda på orsaken och omfördelar arbete. Om det blir ett fortsatt problem kan vi tydligare
+ strukturera upp arbetet. Om det inte är möjligt för att någon i gruppen inte kan bära arbetsbördan som
+ krävs för att nå betyget vi vill ha på projektet behöver vi kontakta kursledningen. Om någon vill göra
+ mer än sin del eller jobba i en högre takt än vi kommit överens om vill vi att det diskuteras i förväg
+ så alla får en chans att vara delaktiga.
+
+\item \textbf{Hur tar vi upp ett problem med berörda personer?}
+
+  \emph{Insikt: Var försiktig. Det är jobbigt att bli anklagad för ett problem. Ju fler personer som är
+  med desto jobbigare blir det för den som upplever anklagelsen. Skapar ni en för jobbig situation
+  riskerar ni att helt förlora en gruppmedlem. Börja istället med att närmaste kompisen på tu man
+  hand försiktigt frågar hur den berörda upplever situationen och hur hen skulle vilja lösa
+  situationen. Ibland visar det sig att hen inte ens uppfattat att det finns ett problem men förstår
+  när hen får förklarat vad de andra upplever.}
+  
+ \emph{Praktiskt tips: (Privat konversation mellan dig och din kompis) Du, jag har lagt märke till att du
+  ofta kommer för sent eller helt uteblir från gruppmöten, hur mår du egentligen? Är du sur på oss?}
+
+ Den/de som känner att det är ett problem har ansvaret att ta upp det. Problemet skall i största mån tas
+ upp i god tid och på ett sätt som inte pekar ut någon på ett taskigt sätt. Vi vill inte trycka ner varandra,
+ men går inte och knyter handen i fickan.
+
+ Om lösningen inte fungerar (samma problem uppstår en andra gång) tar de drabbade kontakt med kursledningen för hjälp.
+
+\item \textbf{Hur ger jag kritik och beröm till andra personer i gruppen?}
+
+  \emph{Insikt: Kritisera inte i onödan. Om en uppgift någon annan gjort är ''good enough'' utan att du behövt lägga tid på
+  den är det ju bara positivt för dig. Vill du ändå lägga din dyrbara tid på att tipsa om
+  förbättringar eller göra förändring, glöm inte uttrycka din tacksamhet för att uppgiften är löst, och skyll inte den
+  extra tid du lägger på tips och ''onödigt finlir'' på någon annan än dig själv.  Omvänt: Om din
+  kompis bjuder på sin tid för att tipsa dig om hur du kan lösa en uppgift ännu lite bättre så är
+  det väl bra för din framtida karriär?}
+  
+  \emph{Praktiskt tips: (Konstruktiv kritik) Det blir väldigt jobbigt för mig att bygga vidare på den här lösningen. Om du istället gör på det
+    här sättet så får vi en lösning som är lättare att arbeta med.}
+  
+  \emph{Insikt: Ett tips för att framföra kritik är att börja med din egen upplevelse av situationen. Fokusera helt och hållet på dig utan att skuldbelägga. Vad är konsekvenserna för dig och hur påverkar det ditt mående? Detta leder ofta till en mer konstruktiv diskussion om hur problem kan lösas.}
+
+  \emph{Praktiskt tips: (Dialog mellan dig och kollega) När jag får vänta på implementationen av klassen PowerUp blir jag oerhört stressad, eftersom mina uppgifter till stor del beror på att klassen PowerUp är klar, och jag kan inte arbeta på kvällarna i den här veckan...}
+
+  \emph{Insikt: Gör dig inte till mer eller mindre än du faktiskt är. Det ökar bara klyftan till de andra i gruppen. Om du får beröm och slår bort det med ''det gjorde jag på rasten'' eller liknande så blir det inte roligt att ge dig beröm, och det kan få avsändaren av berömmet att känna sig underlägsen.}
+  
+  \emph{Praktiskt tips: (Dialog mellan dig och kollega) \\
+    (Kollega) Snyggt jobbat med klassen PowerUp!\\
+    (Du) Tack, det värmer att du säger det.
+  }
+
+  Beröm ges till berörda när tillfälle ges. Vi tar emot beröm uppriktigt och förringar inte det beröm
+  som ges till oss. Vi försöker framföra kritik konstruktivt och privat så att ingen behöver känna att
+  de blir hackade på inför gruppen. Vi tänker igenom kritiken ordentligt på förhand och undviker att vara
+  anklagande eller att attackera varandra.
+
+\end{itemize}
+
+\section{Utvärdering}
+
+\begin{itemize}
+\item \textbf{När ska vi påminna oss om gruppkontraktet och utvärdera hur det fungerat?}
+
+  \emph{Insikt: Gruppkontraktet ska vara ett stöd för arbetet i kursen/projektet. Om det finns saker som
+    inte fungerar i gruppen behöver det kanske omarbetas. Det kanske finns problem med att det existerande
+    kontraktet inte efterlevs av alla deltagande. Kontraktet kan aldrig vara heltäckande och måste stödjas
+    av en vilja att ha ett gott samarbete inom gruppen}
+  
+  Vi kommer 2 gånger under kursen på våra vanliga möten ta en liten stund och titta på gruppkontraktet
+  och se var vi lyckats följa det och var vi misslyckats följa det. Om vi hittar något som inte fungerat
+  eller som saknats i kontraktet så diskuterar vi det och om det behövs uppdaterar vi kontraktet.
+
+  %% Vid utsatt tid: utvärdera hur gruppkontraktet har följts, fundera på ifall något i kontraktet
+  %% behöver ändras, eller om något nytt behöver läggas till.
+
+\end{itemize}
+
+\end{document}

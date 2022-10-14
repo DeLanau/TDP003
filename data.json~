@@ -1,0 +1,84 @@
+[
+   {
+    "start_date": "2021-02-05",
+    "short_description": "Arcade game",
+    "course_name": "Objektorienterad problemlösning",
+    "long_description": "Arcade game project made by 4 students at LiU for TDDI82 course.",
+    "group_size": 4,
+    "academic_credits": "8hp",
+    "lulz_had": "Gigachad",
+    "external_link": "https://gitlab.liu.se/TDDI82-2022-PRA1/Eric-4",
+    "small_image": "ufo_small.png",
+    "techniques_used": [
+        "c++",
+        "SFML"
+    ],
+    "project_name": "uFoo The Game",
+    "course_id": "TDDI82",
+    "end_date": "2021-08-06",
+    "project_id": 1,
+    "big_image": "ufo_big.jpg"
+  },
+  {
+    "start_date": "2009-09-07",
+    "short_description": "Portfolio",
+    "course_name": "Projekt: Egna datormiljön",
+    "long_description": "Portfolio made by 2 students at LiU for TDP003",
+    "group_size": 2,
+    "academic_credits": "6hp",
+    "lulz_had": "few",
+    "external_link": "",
+    "small_image": "portfolio_small.png",
+    "techniques_used": [
+        "Flask",
+        "Jinja2",
+        "python",
+        "html",
+        "css"
+    ],
+    "project_name": "Portfolio",
+    "course_id": "TDP003",
+    "end_date": "2009-09-08",
+    "project_id": 3,
+    "big_image": "portfolio_big.png"
+  },
+  {
+    "start_date": "2009-09-08",
+    "short_description": "no",
+    "course_name": "OK\u00c4NT",
+    "long_description": "no no no",
+    "group_size": 6,
+    "academic_credits": "WUT?",
+    "lulz_had": "medium",
+    "external_link": "YY",
+    "small_image": "X",
+    "techniques_used": [
+      "ada",
+      "python"
+    ],
+    "project_name": "2007",
+    "course_id": "TDP003",
+    "end_date": "2009-09-09",
+    "project_id": 2,
+    "big_image": "XXX"
+  },
+  {
+    "start_date": "2009-09-06",
+    "short_description": "no",
+    "course_name": "HOHO",
+    "long_description": "no no no",
+    "group_size": 8,
+    "academic_credits": "WUT?",
+    "lulz_had": "over 9000",
+    "external_link": "YY",
+    "small_image": "X",
+    "techniques_used": [
+
+    ],
+    "project_name": ",",
+    "course_id": " \"",
+    "end_date": "2009-09-07",
+    "project_id": 4,
+    "big_image": "XXX"
+  }
+]

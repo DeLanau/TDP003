@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}
+Home
+{% endblock %}
+
+{% block body %}
+	<main>
+		<img id="main-img" src="/static/images/indexfoto.png" alt="project-image" width=275>
+		<h1>About me</h1>
+		<div class="about">
+		<p>Name: Namn Efternamn
+		<p>Email: liuid000@student.liu.se
+		  </div>
+		  <h1>Latest project</h1>
+		  <div class="latest-proj">
+		<p>Project: <a href="/project/{{ latest_project.project_id }}" class="inlinks">{{ latest_project.project_name }}</a>
+		<p>Course: {{ latest_project.course_id }}
+		<p>Techniques: {% for tech in latest_project.techniques_used %} {{ tech }}{% if not loop.last %},{% endif %} {% endfor %}
+		<p>Source: <a href="{{ latest_project.external_link }}" class="inlinks">{{ latest_project.external_link }}</a>
+		  </div>
+	</main>
+
+{% endblock %}
