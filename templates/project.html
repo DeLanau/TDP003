@@ -14,17 +14,22 @@ Project - {{ project.project_name }}
 <main>
   <img id="main-img" src="/static/images/{{ project.big_image }}" alt="project-image" width=350>
   <h1>Description</h1>
-  <p class="proj-text">{{ project.long_description }}
+  <p class="proj-text">
+    {% autoescape false %}
+    {{
+    
+    project.long_description | replace("|", "<br/>")
+
+    }}
+    {% endautoescape %}
     <h1>Data</h1>
     <div class="proj-text">
       <p>Course: {{ project.course_id }}
       <p>Techniques: {% for tech in project.techniques_used %} {{ tech }}{% if not loop.last %},{% endif %} {% endfor %}
-      <p>Collaborators: {% for person in project.collaborators %} {{ person }}{% if not loop.last %},{% endif %} {% endfor %}
       <p>Academic credits: {{ project.academic_credits }}
       <p>Start date: {{ project.start_date }}
       <p>End date: {{ project.end_date }}
       <p>Source: <a href="{{ project.external_link }}" class="inlinks">{{ project.external_link }}</a>
-      <!--<p>Times Visited: {{ project.counter }}-->
     </div>
 </main>
 {% endblock %}

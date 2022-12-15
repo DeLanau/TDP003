@@ -92,7 +92,8 @@ h1 {
 }
 #proj-text {
     width: 50%;
-    margin-left: 25%;
+    margin-left: 0 auto;
+    white-space: pre-wrap;
 }
 #proj-info {
     float: right;
