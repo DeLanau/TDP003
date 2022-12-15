@@ -80,5 +80,25 @@
     "end_date": "2009-09-07",
     "project_id": 4,
     "big_image": "bigplaceholder.png"
-  }
+  },
+   {
+    "start_date": "2022-11-10",
+    "short_description": "Spelet om trollkarl och hans magiska formler.",
+    "course_name": "Projekt: Objektorienterat system",
+    "long_description": "Spelet handlar om en trollkarl som ska skydda sig mot attackerande fiender som inkommer från alla håll. Till sin hjälp har trollkarlen fyra stycken formler som på olika sätt kompletterar varandra. vattenformel som regenerar hälsan när man är skadad, jordformel som håller fienderna på avstånd, eldformel som skadar fiender i närheten men som också skadar hälsan och till sist luftformeln som har en stor area of effect som skadar fiender. Alla formler slösar mana vilket är spelets valuta för att utföra formlerna, man har en begränsad mängd men som laddas upp långsamt om man inte gör något. Målet med spelet är att klara sig så länge som möjligt genom att fighta mot fienderna och hushålla med hälsan och mana för att inte slösa dem i onödan.",
+    "group_size": 3,
+    "academic_credits": "6hp",
+    "lulz_had": "over 9000",
+    "external_link": "YY",
+    "small_image": "placeholder.png",
+    "techniques_used": [
+        "c++",
+        "SFML"
+    ],
+    "project_name": "Elemental Mage",
+    "course_id": "TDP005",
+    "end_date": "2009-12-16",
+    "project_id": 5,
+    "big_image": "bigplaceholder.png"
+  } 
 ]
