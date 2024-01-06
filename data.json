@@ -100,5 +100,24 @@
     "end_date": "2009-12-16",
     "project_id": 5,
        "big_image": "tdp005_big.png"
-   } 
+   },
+       {
+    "start_date": "2022-08-29",
+    "short_description": "Android app",
+    "course_name": "TDP028 Projekt: Entreprenöriell programmering",
+    "long_description": "Focus är ett app för android för bättre focus under studier.",
+    "group_size": 1,
+    "academic_credits": "10hp",
+    "lulz_had": "over 9000",
+    "external_link": "https://gitlab.liu.se/nadla777/tdp028",
+    "small_image": "placeholder.png",
+    "techniques_used": [
+        "java"
+    ],
+    "project_name": "Focus app",
+    "course_id": "TDP028",
+    "end_date": "2023-01-09",
+    "project_id": 6,
+       "big_image": "bigplaceholder.png"
+   }
 ]
